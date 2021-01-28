@@ -1,0 +1,25 @@
+header {
+    border-bottom: 1px solid black;
+}
+
+header a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 8px;
+    padding: 24px 16px;
+    font-size: 24px;
+    border-left: 1px solid black;
+}
+
+header div {
+    display: inline-block;
+    padding: 24px 16px;
+}
+
+header a:hover {
+    background-color: gray;
+}
+
+header div:hover {
+    background-color: lightgreen;
+}
