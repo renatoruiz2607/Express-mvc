@@ -6,17 +6,42 @@
   </head>
   <body>
     <header>
-      <div>
+      <!-- <div>
         <img src="https://seeklogo.com/images/F/fake-biker-logo-A922297523-seeklogo.com.png" height="40px" width="80px"/>
-      </div>
+      </div> -->
       <a href="/products">Produtos</a>
       <a href="/about">Acessar Sobre</a>
     </header>
     <h1>Produtos</h1>
+    <main>
+      <h2>Cadastro de produtos</h2>
+      <form>
+        <div>
+          <label for="name">Nome do produto</label>
+          <input name="name" id="name" type="text">  
+        </div>
+        <div>
+          <label for="price">Preço do produto</label>
+          <input name="price" id="price" type="number">
+        </div>
+        <div>
+          <label for="eletronic">Eletrônico</label>
+          <input type="radio" name="type" id="eletronic">
 
-    <strong>texto 1</strong>
-    <strong>texto 2</strong>
+          <label for="food">Alimento</label>
+          <input type="radio" name="type" id="food">
 
+          <label for="pharmaceutical">Farmacêutico</label>
+          <input type="radio" name="type" id="pharmaceutical">
+        </div>
+        <div>
+          <input type="submit" value="Cadastrar produto">
+          <input type="reset" value="Cancelar">
+          <!-- <button type="submit">Enviar</button> -->
+        </div>
+          <!-- Comentando em Html -->
+      </form>
+    </main>
   </body>
 </html> 
 

@@ -1,25 +1,27 @@
 header {
+    background-color: #323639;
     border-bottom: 1px solid black;
 }
 
 header a {
+    border-bottom: 2px solid transparent;
+    color: white;
     display: inline-block;
     text-decoration: none;
-    margin-left: 8px;
     padding: 24px 16px;
-    font-size: 24px;
+    font-size: 16px;
     border-left: 1px solid black;
-}
-
-header div {
-    display: inline-block;
-    padding: 24px 16px;
+    font-family: sans-serif;
 }
 
 header a:hover {
-    background-color: gray;
+    border-bottom: 2px solid #ff1500;
 }
 
+/*header div {
+    display: inline-block;
+    padding: 24px 16px;
+}
 header div:hover {
     background-color: lightgreen;
-}
+}*/
