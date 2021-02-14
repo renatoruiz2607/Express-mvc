@@ -1,8 +1,52 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+header {
+  background-color: #323639;
+  border-bottom: 1px solid black;
 }
 
-a {
-  color: #00B7FF;
+header a {
+  border-bottom: 2px solid transparent;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 24px 16px;
+  font-size: 16px;
+  border-left: 1px solid black;
+  font-family: sans-serif;
+}
+
+header a:last-of-type{
+  margin-left: auto;
+}
+
+header a:hover {
+  border-bottom: 2px solid #ff1500;
+}
+
+.box {
+  border: 1px solid #323639;
+  height: 350px;
+  width: 550px;
+  padding: 16px;
+}
+
+.custom-row {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row:nth-child(even) {
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+}
+
+.about {
+  flex-basis: 30%;
+}
+
+.benefits {
+  flex-basis: 70%;
 }
