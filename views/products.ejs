@@ -8,7 +8,7 @@
     <main class="container">
       <h1><%= name %></h1>
       <h2>Cadastro de produtos</h2>
-      <form>
+      <form action="" method="POST">
         <div>
           <label for="name">Nome do produto</label>
           <input name="name" id="name" type="text">  
@@ -18,8 +18,8 @@
           <input name="price" id="price" type="number">
         </div>
           <% types.forEach(function(type) {%>
-          <label for="<%= type.id %>"><%= type.label %></label>
-          <input type="radio" name="type" id="<% type.id %>">
+            <input type="radio" name="type" id="<% type.id %>" value="<%= type.id %>" />
+            <label for="<%= type.id %>"><%= type.label %></label>
           <%}) %>
         <div>
           <input type="submit" value="Cadastrar produto">
