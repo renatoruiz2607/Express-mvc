@@ -1,19 +1,7 @@
-header {
-    background-color: #323639;
-    border-bottom: 1px solid black;
+.marginBottom {
+    margin-bottom: 16px;
 }
 
-header a {
-    border-bottom: 2px solid transparent;
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    padding: 24px 16px;
-    font-size: 16px;
-    border-left: 1px solid black;
-    font-family: sans-serif;
-}
-
-header a:hover {
-    border-bottom: 2px solid #ff1500;
+.marginRight {
+    margin-right: 16px;
 }
